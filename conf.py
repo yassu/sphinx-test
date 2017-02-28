@@ -131,10 +131,8 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
 }
-imgmath_latex_preamble = r'''
-\newcommand{\zero}{\mathbf{0}}
-'''
-print(latex_elements)
+with open('yassu.sty') as f:
+    imgmath_latex_preamble = f.read()
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,

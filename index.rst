@@ -34,7 +34,7 @@ Euler's identity, equation :eq:`euler`, was elected one of the most
 beautiful mathematical formulas.
 
 .. math::
-  \zero
+  \zero 3
 
 Indices and tables
 ==================

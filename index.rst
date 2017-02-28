@@ -11,7 +11,7 @@ Welcome to sphinx-test's documentation!
    :caption: Contents:
 
 
-inline math: `a^2 + b^2 = c^2`.
+inline :math:`a^2 + b^2 = c^2` .
 
 .. math::
   (a + b)^2 = a^2 + b^2 + 2ab \\
@@ -35,6 +35,7 @@ beautiful mathematical formulas.
 
 .. math::
   \zero 3
+  \GL_\RR(2)
 
 Indices and tables
 ==================

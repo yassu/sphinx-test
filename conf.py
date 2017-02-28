@@ -34,6 +34,14 @@
 extensions = []
 extensions += ['sphinx.ext.imgmath']
 
+# # imgmath
+# latex_elements = dict()
+# latex_elements['preamble'] = r'''
+# \newcommand{\zero}{\mathbf{0}}
+# '''
+
+# print(latex_elements)
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -123,6 +131,10 @@ latex_elements = {
     #
     # 'figure_align': 'htbp',
 }
+imgmath_latex_preamble = r'''
+\newcommand{\zero}{\mathbf{0}}
+'''
+print(latex_elements)
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,

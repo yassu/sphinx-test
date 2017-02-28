@@ -33,6 +33,8 @@ eqn-array:
 Euler's identity, equation :eq:`euler`, was elected one of the most
 beautiful mathematical formulas.
 
+.. math::
+  \zero
 
 Indices and tables
 ==================

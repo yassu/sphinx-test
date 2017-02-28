@@ -33,6 +33,7 @@
 # ones.
 extensions = []
 extensions += ['sphinx.ext.imgmath']
+extensions += ['sphinx.ext.githubpages']
 
 # # imgmath
 # latex_elements = dict()
